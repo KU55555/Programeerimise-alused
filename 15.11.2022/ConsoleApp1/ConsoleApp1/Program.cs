@@ -17,10 +17,12 @@ namespace ConsoleApp1
             if (numberParsed <= 50)
             {
                 Console.WriteLine("See nr on võrdne või väiksem 50-st");
+                //kui vastab if tingimusele tuleb see
             }
             else
             {
                 Console.WriteLine("Kõik ülejäänud numbrid.");
+                //kui ei vasta if tingimusele siis tuleb else tingimus
             }
 
 
