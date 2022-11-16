@@ -23,44 +23,8 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Kõik ülejäänud numbrid.");
                 //kui ei vasta if tingimusele siis tuleb else tingimus
+
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             if (numberParsed < 50)
             {
                 Console.WriteLine("Cool player");
@@ -70,21 +34,10 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Not cool player");
             }
-
-
-            
-           
-            
             else if (numberParsed  > 1 && numberParsed < 50)
             {
                 Console.WriteLine("Cool player");
-            }
-     
-       
-        
-        
-        
-        
+            }        
         }
 
     }
